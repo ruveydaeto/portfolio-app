@@ -2,7 +2,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  background: var(--body-color);
+  background: var(--aside-color);
   border-right: 1px solid rgba(0 ,0 ,0 , 0.05);
   padding: 2.5rem;
   width: 110px;
@@ -16,7 +16,7 @@
 .nav__list {
   display: flex;
   flex-direction: column;
-row-gap: 1rem;
+row-gap: 3rem;
 }
 
 .nav__link {
@@ -73,4 +73,20 @@ left: -110px;
   .show-menu {
     left: 0;
   }
+}
+
+.nav__link {
+  position: relative;
+  z-index: 999;
+}
+
+.icon-home {
+  color: var(--first-color);
+  
+}
+.icon-graduation {
+  color: var(--green);
+}
+.icon-note {
+  color: var(--purple);
 }

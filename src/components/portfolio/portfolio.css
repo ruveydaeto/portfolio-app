@@ -30,8 +30,24 @@ color: var(--first-color);
   overflow: hidden;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
+  max-width: 300px;
+  max-height: 300px;
+  background-color: var(--aside-color);
 }
 
+.work__thumbnail {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: .3s;
+}
+
+.work__img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  transition: .3s;
+}
 .work__mask {
   background: #6c6ce5;
   position: absolute;
@@ -68,7 +84,7 @@ color: var(--first-color);
   margin: 0 0 0 0.98rem;
   padding: 0 1.25rem ;
   position: absolute;
-  top: 3.75rem;
+  top: 1.5rem;
   transform: translateY(30px);
   transition: .3s;
   opacity: 0;
@@ -136,4 +152,10 @@ color: var(--first-color);
     row-gap: 1.875rem;
   }
 
+}
+.work__desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
 }

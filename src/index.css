@@ -8,7 +8,10 @@
   --text-color: hsl(244, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);
   --container-color: white;
-
+  --aside-color: hsl(258deg 100% 97.03%);
+  --purple : hsl(240deg 69.94% 66.08%);
+  --green : hsl(166.53deg 64.76% 55.49%);
+ 
   /*Font*/
   --body-font: 'Rubik', sans-serif;
   --h1-font-size: 2.5rem;
@@ -22,7 +25,6 @@
   --font-medium: 500;
   --font-semibold: 600;
   --font-bold: 700;
-
   /* box shadow */
   --shadow: 0px 5px 20px 0px rgba(69 67 96 / 10%);
 

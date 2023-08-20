@@ -5,9 +5,10 @@
   align-items: center;
   justify-content: center;
 }
+
 .intro {
-max-width: 540px;
-text-align: center;
+  max-width: 540px;
+  text-align: center;
 }
 
 
@@ -16,6 +17,7 @@ text-align: center;
   width: 150px;
   height: 150px;
 }
+
 .btn__home {
   padding: 0.75rem 2rem;
   line-height: 1;
@@ -36,8 +38,20 @@ text-align: center;
 
 .home__socials {
   display: flex;
-    column-gap: 2.75rem;
-   margin: 1.5rem 0;
+  position: relative;
+  column-gap: 2.75rem;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+
+}
+
+.home__education {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home__social__link {
@@ -49,6 +63,7 @@ text-align: center;
 .home__social__link:hover {
   color: hsl(43, 100%, 68%)
 }
+
 .wheel {
   background-color: var(--title-color);
   border-radius: 100%;
@@ -59,20 +74,24 @@ text-align: center;
   left: 50%;
   transform: translateX(-50%);
   animation: ani-mouse 2s linear infinite;
+  z-index: 9999;
 }
 
 @keyframes ani-mouse {
   0% {
-    top: 29%;
+    top: 5%;
   }
+
   15% {
-top: 50%;
+    top: 10%;
   }
+
   50% {
-    top: 50%;
+    top: 5%;
   }
+
   100% {
-    top: 29%;
+    top: 5%;
   }
 }
 
@@ -96,7 +115,11 @@ top: 50%;
   margin: auto;
   margin-top: .75rem;
   border-radius: 1rem;
-  position: relative;
+  position: fixed;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  z-index: 9999;
+  animation: ani-mouse 2s linear infinite reverse;
 }
 
 .shapes {
@@ -112,34 +135,42 @@ top: 50%;
 .shape {
   position: absolute;
 }
+
 .s1 {
   left: 2%;
   top: 10%;
 }
+
 .s2 {
   left: 18%;
   top: 30%;
 }
+
 .s3 {
   left: 5%;
   bottom: 30%;
 }
+
 .s4 {
   left: 2%;
   bottom: 10%;
 }
+
 .s5 {
   left: 44%;
   top: 10%;
 }
-.s6{
+
+.s6 {
   left: 36%;
   bottom: 10%;
 }
+
 .s7 {
   top: 20%;
-  right:25%;
+  right: 25%;
 }
+
 .s8 {
   right: 24%;
   bottom: 20%;
@@ -149,17 +180,19 @@ top: 50%;
   right: 2%;
   top: 10%;
 }
+
 .s10 {
   top: 45%;
   right: 11%;
 }
+
 .s11 {
   bottom: 10%;
   right: 2%;
 }
 
 @media screen and (max-width: 1024px) {
-  
+
   .home__social__link {
     font-size: 1.125rem;
   }

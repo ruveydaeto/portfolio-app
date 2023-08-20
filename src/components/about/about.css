@@ -170,3 +170,10 @@ left: 47%;
     grid-template-columns: 1fr;
   }
 }
+
+
+.btn {
+  position: relative;
+  z-index: 999;
+  background-color: var(--purple);
+}
