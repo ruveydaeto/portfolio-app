@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-app/static/css/main.58d465ed.css",
+    "main.js": "/portfolio-app/static/js/main.d9f62d9a.js",
+    "static/media/ruveyda.svg": "/portfolio-app/static/media/ruveyda.ae555a1b124c72813d852ccd43c24dbd.svg",
+    "static/media/dots-bg.svg": "/portfolio-app/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
+    "index.html": "/portfolio-app/index.html",
+    "main.58d465ed.css.map": "/portfolio-app/static/css/main.58d465ed.css.map",
+    "main.d9f62d9a.js.map": "/portfolio-app/static/js/main.d9f62d9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58d465ed.css",
+    "static/js/main.d9f62d9a.js"
+  ]
+}
