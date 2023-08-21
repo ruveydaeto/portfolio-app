@@ -1,9 +1,4 @@
-import work from '../../assets/work.png';
-import admin from '../../assets/admin.svg';
-import social from '../../assets/social-media.png';
-import work3 from '../../assets/work-3.svg';
-import work4 from '../../assets/work-4.svg';
-import work5 from '../../assets/work-5.svg';
+
 const Menu = [
   {
     id: 1,

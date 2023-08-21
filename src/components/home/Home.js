@@ -4,7 +4,6 @@ import Me from "../../assets/ruveyda.svg";
 import HeaderSocials from './HeaderSocials';
 import '../about/about.css';
 
-import ScrollDown from "./ScrollDown";
 import Shapes from './Shapes';
 export default function Home() {
   return (
