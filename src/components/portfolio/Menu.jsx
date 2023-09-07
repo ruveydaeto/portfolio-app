@@ -29,7 +29,7 @@ const Menu = [
     category: "blogs",
     title: "React Context API Using",
     image: "https://i.ytimg.com/vi/OlyHwgXaSV0/maxresdefault.jpg",
-    desc: "React Context API",
+    desc: "React Context ",
     href: "https://medium.com/@ruveydaeto/react-context-api-ile-veri-y%C3%B6netimi-neden-ve-nas%C4%B1l-kullanmal%C4%B1y%C4%B1z-dc08788",
   },
 ];
