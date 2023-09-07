@@ -24,7 +24,14 @@ const Menu = [
     href: "https://github.com/ruveydaeto/admipanel-tailwind",
     image:"https://user-images.githubusercontent.com/77105720/261866253-12d94ffe-5d08-40a8-93d0-170b10e53430.png",
   },
-
+  {
+    id: 4,
+    category: "blogs",
+    title: "React Context API Using",
+    image: "https://i.ytimg.com/vi/OlyHwgXaSV0/maxresdefault.jpg",
+    desc: "React Context API",
+    href: "https://medium.com/@ruveydaeto/react-context-api-ile-veri-y%C3%B6netimi-neden-ve-nas%C4%B1l-kullanmal%C4%B1y%C4%B1z-dc08788",
+  },
 ];
 
 export default Menu
